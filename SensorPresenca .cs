@@ -6,7 +6,7 @@ internal class SensorPresenca : ISensor
 
     public bool Ativar()
     {
-        Console.WriteLine("Sensor de presenca Ativado");
+        Console.WriteLine("Sensor de presenca ativado");
         return true;
         
     }
