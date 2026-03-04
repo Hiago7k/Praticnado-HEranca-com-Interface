@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Praticnado_HEranca_com_Interface;
 
-namespace Praticnado_HEranca_com_Interface
+internal class SensorTemperatura : ISensor
 {
-    internal class SensorTemperatura
+
+
+    public bool Ativar() 
     {
+        Console.WriteLine("Sensor de temperatura ativado");
+        return true;
+    }
+
+    public bool Desativar()
+    {
+        Console.WriteLine("Sensor de temperatura desativado");
+        return false;
     }
 }
